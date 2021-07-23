@@ -1,0 +1,10 @@
+server:
+  port: 7777
+
+spring:
+  cloud:
+    consul:
+      discovery:
+        instance-id: client-7777
+  application:
+    name: client

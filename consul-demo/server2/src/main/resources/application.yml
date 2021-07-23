@@ -1,0 +1,12 @@
+server:
+  port: 9999
+
+spring:
+  cloud:
+    consul:
+      host: localhost
+      port: 8500
+      discovery:
+        serviceName: service
+        instance-id: service-9999
+        tags: test
